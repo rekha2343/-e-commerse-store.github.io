@@ -4,7 +4,7 @@ let cartTotal = 0;
 function addToCart() {
     const item = {
         name: "Product Name",
-        price: 2000
+        price: 250
     };
     cartItems.push(item);
     cartTotal += item.price;
